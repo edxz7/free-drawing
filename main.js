@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
 
   function draw(e){
       if(!isDrawing) return;
-      ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+      // ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
       hue = ++hue % 360;
       ctx.beginPath()
       ctx.moveTo(lx,ly)
